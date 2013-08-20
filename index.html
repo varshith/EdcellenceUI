@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="courses">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="lib/bootstrap-glyphicons/css/bootstrap-glyphicons.css" rel="stylesheet" media="screen">
+    <link href="lib/bootstrap-glyphicons/css/docs.css" rel="stylesheet" media="screen">
+    <title>Courses</title>
+  </head>
+  <body>
+     <div ng-view=""><!-- partials will be injected here --></div>
+    <script src="lib/angular.js"></script>
+    <script src="lib/angular-resource.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>    
+    <script src="app/app.js"></script>
+    <script src="app/controllers/controller.js"></script>
+    <script src="app/factories/courseFactory.js"></script>    
+  </body>
+</html>

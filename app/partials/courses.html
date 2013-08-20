@@ -1,0 +1,9 @@
+<div class="course-container">
+    <h1>All Courses</h1>
+    <div ng-repeat="course in courses.list">
+        <div class="item">
+            <a href="#/course/{{course.nid}}" class="glyphicon-ok lead" ng-bind-html-unsafe="course.title"></a>
+            <p ng-bind-html-unsafe="course.body.value"></p>
+        </div>
+    </div>
+</div>
